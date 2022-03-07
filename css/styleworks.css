@@ -16,7 +16,7 @@
   font-family: "Circularpro book", sans-serif;
 }
 #front:hover {
-  background-image: url(/img/capafront1.jpg);
+  background-image: url(../img/capafront1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   transition: 0.5s;
@@ -26,19 +26,19 @@
   background: rgba(0, 0, 0, 0.5);
 }
 #back:hover {
-  background-image: url(/img/capaback1.jpg);
+  background-image: url(../img/capaback1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   transition: 0.5s;
 }
 #Mobi:hover {
-  background-image: url(/img/mobi.jpg);
+  background-image: url(../img/mobi.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 #grupo:hover {
-  background-image: url(/img/grupo.jpg);
+  background-image: url(../img/grupo.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   transition: 0.5s;
