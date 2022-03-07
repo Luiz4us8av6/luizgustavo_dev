@@ -1,0 +1,99 @@
+body{
+    background: #121212;
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Circularpro book', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #f5f5ff;
+}
+#capafrontend:nth-of-type(1){
+    background-image: url(/img/capafront1.jpg);
+    background-size: cover;
+}
+#capaback:nth-of-type(1){
+    background-image: url(/img/capaback1.jpg);
+    background-size: cover;
+}
+#capamobile:nth-of-type(1){
+    background-image: url(/img/mobi.jpg);
+    background-size: cover;
+}
+#capaprojetogrupo:nth-of-type(1){
+    background-image: url(/img/grupo.jpg);
+    background-size: cover;
+}
+.sectioncapa{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.menupage{
+    position: fixed;
+    display: block;
+    left: 1rem;
+    top: 50%;
+    z-index: -1;
+    background: white;
+    text-align: right;
+    padding: 2rem;
+}
+.menupage li{
+  padding-left: 2rem;
+  margin-bottom: 1rem;  
+}
+.manupage a{
+    color: black;
+    font-size: 14px;
+   
+}
+.listamenupage{
+    cursor: pointer;
+}
+.menupage h1{
+    font-size: 48px;
+}
+.menupage h1{
+    color: black;
+}
+.botao{
+    background: none;
+    border-style: solid;
+    border:solid black 2px;
+    border-radius: 3px;
+    padding: 10px 20px 10px 20px;
+    font-size: 15px;
+    font-family: 'Circularpro book', sans-serif;
+    cursor: pointer;
+}
+.manutencao{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.manutencao div{
+    border: solid 1px black;
+    padding: 3rem;
+    margin: 2rem;
+}
+.manutencao p{
+    color: black;
+}
+@media (max-width: 750px){
+    .sectioncapa{
+        height: 35vh;
+    }
+    
+}

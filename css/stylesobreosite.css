@@ -1,0 +1,83 @@
+#bodysobreosite{
+    background: #fffdfc;
+    
+}
+header a{
+    color: white;
+}
+#botaomobile{
+    color: black;
+}
+#iconemenu{
+    color: black;
+}
+#contenhersobreosite{
+    display: flex;
+    height: 100vh;
+
+}
+#contenhersobreosite div{
+    width: 50%;
+}
+#divdireitasobreosite{
+    background: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+#divdireitasobreosite h1{
+    font-size: 3rem;
+    color: white;
+}
+#divesquerdasobreosite{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    text-align: justify;
+}
+#divesquerdasobreosite h2{
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+#nomesobreosite{
+    position: fixed;
+    right: 0%;
+    bottom: 0%;
+}
+#nomesobreosite h1{
+    display: flex;
+    font-size: 7rem;
+    color: #f9f7f6;
+    justify-content: right;
+}
+#divesquerdasobreosite p{
+    color: black;
+}
+@media (max-width: 750px){
+    #contenhersobreosite{
+        display: block;
+        height: 100vh;
+    }
+#contenhersobreosite div{
+    width: 100%;
+    height: 50%;
+}
+#nomesobreosite{
+    display: none;
+}
+#divesquerdasobreosite h2{
+    text-align: center;
+}
+
+#divesquerdasobreosite{
+    justify-content: center;
+}
+#divesquerdasobreosite p{
+    padding-left: 2rem;
+    padding-right: 2rem;  
+}
+#iconemenu{
+    color: white;
+}
+}

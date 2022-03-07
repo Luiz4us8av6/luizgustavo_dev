@@ -1,0 +1,69 @@
+#modulocategorias {
+  display: flex;
+  text-align: center;
+}
+.divsworks {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.categorias {
+  font-size: 1.2rem;
+  color: white;
+  z-index: 800;
+  font-family: "Circularpro book", sans-serif;
+}
+#front:hover {
+  background-image: url(/img/capafront1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0.5s;
+  z-index: 99;
+}
+.escurecendoimgworks:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+#back:hover {
+  background-image: url(/img/capaback1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0.5s;
+}
+#Mobi:hover {
+  background-image: url(/img/mobi.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#grupo:hover {
+  background-image: url(/img/grupo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0.5s;
+}
+@media (max-width: 750px) {
+  .home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90vh;
+  }
+  #modulocategorias {
+    display: block;
+    /* height: 100vh; */
+    width: 100%;
+    justify-content: center;
+  }
+  #modulocategorias div {
+    width: 100%;
+    height: 15vh;
+  }
+  /* #contenherfooter {
+    position: fixed;
+    bottom: 5rem;
+    left: 5rem;
+  } */
+}

@@ -1,0 +1,131 @@
+footer ul{
+    display: flex;
+}
+footer li{
+    margin-right: 40px;
+}
+
+.footerportfolio {
+    background-color: #212121;
+    padding: 4rem;
+    padding-bottom: 2rem;
+}
+.footerportfolio ul {
+    display: flex;
+  }
+  .footerportfolio a {
+    color: black;
+  }
+  #contenherfooterport {
+    display: flex;
+    justify-content: space-between;
+  }  
+  .footerportfolio h3,
+  h1,
+  a {
+    color: white;
+  } 
+  #contenherfooterport a,
+  p {
+    color: white;
+  }
+  .textodireitos {
+    color: white;
+  }
+  .footerportfolio h3 {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+  .footerportfolio h1 {
+    font-size: 60px;
+    padding-bottom: 7rem;
+  }
+  .footerportfolio {
+    margin-top: 3rem;
+    font-family: "Circularpro book", sans-serif;
+  } 
+  #setanavegacaofooter img {
+    width: 50px;
+    height: auto;
+  }
+  .footerdivcontenher {
+    display: flex;
+    justify-content: space-between;
+  } 
+  .footerhomeworkcontatos{
+    display: flex;
+    width: 100%;
+  }
+  .footerhomeworkcontatos > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+@media(max-width:750px){
+    
+    /* #contenherfooter{
+        position: fixed;
+        bottom: 5rem;
+        left: 5rem;
+    } */
+    .footerportfolio{
+        padding: 0px;
+    }
+    .footerdivcontenher h3{
+        font-size: 0.5rem;
+    }
+    .footerdivcontenher h1{
+        font-size: 2rem;
+    }
+    #contenherfooterport{
+        display: block;
+    }
+    #contenherfooterport div ul{
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+    .footerdivcontenher{
+        justify-content: space-around;
+    }
+    .textodireitos{
+        text-align: center;
+    }
+    .textodireitos p{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    footer li {
+        margin: 0px;
+    }
+    #setanavegacaofooter img{
+        margin-top: 1rem;
+    }
+    .footerhomeworkcontatos{
+        display: flex;
+        justify-content: center;
+    }
+    footer ul {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+    #direitos{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    #contenherfooterport p{
+        text-align: center;
+    }
+    #direitos p{
+        text-align: center;
+    }
+    .footerhomeworkcontatos > div{
+      display: block;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+}

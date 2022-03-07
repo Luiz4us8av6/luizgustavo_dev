@@ -1,0 +1,278 @@
+#bodysobremim{
+    font-size: 14px;  
+    background: #fffdfc; 
+}
+#textosobremim p{
+    color: black;
+}
+#contatossobremim h1{
+    color: black;
+}
+#textosobremim p{
+    text-align: 14px;
+    font-family: 'Circularpro book', sans-serif; 
+}
+#sectionsobremim > div{
+    position: absolute;
+    right: 20%;
+    bottom: 15%;
+    width: 23rem;
+    height: auto;
+}
+/*rotate(270deg);*/
+#divhorizontal{
+    display: flex;
+}
+#sectionsobremim img{
+    width: 100%;
+    height: 100%;
+}
+#sectionsobremim{
+    margin-bottom: 5%;
+}
+#sectionsobremim p{
+   margin-bottom: 1rem;
+}
+/* #foo{
+    color: white;
+    transform: rotate(270deg);
+    position: absolute;
+    right: 36%;
+    bottom: 360px;
+    display: none;
+}
+#foo h1{
+    font-size: 3rem;
+}
+#foo h3{
+    font-size: 2rem;
+}
+#foo2{
+    writing-mode: vertical-rl; 
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+} */
+
+#sectionsobremim{
+    background-image: url(/img/capa.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+
+#contenhersobremim{
+    display: flex;
+    justify-content: center;
+    width: 55%;
+    margin-top: 4rem;
+}
+#contatossobremim{
+    width: 50%;
+}
+#textosobremim{
+    width: 50%;
+}
+#textosobremim{
+    text-align: justify;
+}
+#modulo2sobremim{
+    display: flex;
+    justify-content: center;
+}
+#direitossobremim{
+    color: black;   
+}
+#logosobreim{
+    color: black;
+    font-size: 30px;
+}
+.textosobremimm{
+    margin-bottom: 2rem;
+    line-height: 28px;
+    font-weight: 400;
+}
+#contatossobremim h1{
+    margin-bottom: 2rem;
+}
+#contatossobremim li{
+    margin-bottom: 1rem;
+}
+#formacoes h1, p{
+    color: black;
+}
+#habilidades h1, p{
+    color:black;
+}
+
+#formacoes, #habilidades{
+    display: block;
+}
+#divcontenher1{
+    display: flex;
+}
+
+#divsobremim{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    z-index: -1; 
+}
+#sobremim{
+    font-size: 13rem;
+    color: #f9f7f6;
+}
+.contenherformacao{
+    margin-bottom: 1rem;
+}
+
+.contenherformacao p{
+    color: black;
+    line-height: 28px;
+    font-weight: 400;
+    text-align: justify;
+}
+#formacoes{
+    display: flex;
+    justify-content: center;
+}
+#geralformacao, #geralhabilidades{
+    display: flex;
+    justify-content: center;
+    width: 55%;
+    margin-top: 4rem; 
+}
+.modulos{
+    width: 50%;
+}
+.linhafacu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#habilidades{
+    display: flex;
+    justify-content: center;
+}
+.ferramentas{
+    height: 100px;
+    max-width: 100%;
+    display: block;
+}
+#tecnologias{  
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.modulos >div{
+    flex: 1 1 200px;
+}
+.modulos ul{
+    margin-top: 2rem;
+}
+.modulos li{
+    margin-bottom: 1rem;
+}
+.hr{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    color: black;    
+}
+#experiencias h1, p{
+    color: black;
+}
+#experiencias{
+    display: flex;
+    justify-content: center;
+}
+#geralexperiencia{
+    display: flex;
+    justify-content: center;
+    width: 55%;
+    margin-top: 4rem
+}
+#footersobremim{
+    height: auto;
+    
+}
+#footersobremim ul{
+   padding-top: 1rem;
+    
+} 
+#footersobremim p{
+   color: white; 
+} 
+@media (max-width: 770px){
+    #sectionsobremim > div {
+        right: 25%;
+        bottom: 55%;
+        width: 30%;
+       
+    }
+    #sectionsobremim {
+        height: 40vh;
+    }
+    #foo{
+        display: none;
+    }
+    .textossobremimmobi{
+        display: none;
+    }
+    #contenhersobremim {
+        width: 70%;
+    }
+    #contenhersobremim{
+        display: block;
+    }
+    #contatossobremim {
+         width: 100%; 
+    }
+    #textosobremim{
+        width: 100%;
+    }
+    #geralformacao{
+        display: block;
+    }
+    .modulos{
+        width: 100%;
+    }
+    #geralformacao{
+        width: 70%;
+    }
+    .linhafacu{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    #geralhabilidades {
+        width: 70%;
+        display: block;
+    }
+    .ferramentas{
+        display: flex;
+    }
+    #tecnologias{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .modulos >div {
+        flex: none;
+    }
+    #geralexperiencia {
+        display: block;
+        width: 70%;
+    }
+    .modulos ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin-bottom: 1rem;
+        justify-content: center;
+    }
+}
+

@@ -1,0 +1,116 @@
+header{
+    display: flex;
+    box-sizing:border-box ;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    padding-left: 50px;
+    padding-top: 40px;
+    padding-right: 50px;
+    z-index: 1000;
+    
+}
+header img{
+    height: 2rem;
+    width: auto;
+}
+#nav ul{
+    display: flex;
+    position: absolute;
+    z-index: 1;
+}
+#nav ul li{
+    padding: 1rem;
+}
+li:hover{
+    color:#89B6C1;
+}
+#nav #menu{
+    display: block;
+    position: absolute;
+    visibility: hidden;
+    background: rgba(0, 0, 0, 0.8);
+    width: 0;
+    height: 0vh;
+    text-align: center;
+    top:0;
+    right: 0;
+    font-size: 30px;
+    color: white;
+    transition: .6s;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    border-radius: 800px 0px 800px 800px;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+#nav.active #menu{
+    height: 100vh;
+    width: 100%;
+    padding-top: 11%;
+    visibility: visible;
+    border-radius: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    cursor: pointer;
+}
+#nav.active #iconemenu{
+    color: white;
+}
+#nav.active #botaomobile{
+    color: white;
+}
+#botaomobile{
+    display: flex;
+    padding: 1.2rem 1rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: white;
+    z-index: 1000;
+    gap: 10px;
+    align-items: center;
+    
+
+}
+#iconemenu{
+    width: 30px;
+    border-top: 4px solid;
+    display: block;
+}
+#iconemenu::after, #iconemenu::before {
+    content: '';
+    margin-top: 6px;
+    display: block;
+    width: 30px;
+    height: 4px;
+    background: currentColor;
+    transition: .3s;
+    position: relative;
+}
+#nav.active #iconemenu{
+    border-top-color: transparent;
+}
+#nav.active #iconemenu::before{
+    transform: rotate(135deg);
+}
+#nav.active #iconemenu::after{
+    transform: rotate(-135deg);
+    top: -9px;
+}
+#nav{
+    display: flex;
+    align-items: center;
+}
+#menu a{
+    color: white;
+}
+@media(max-width:750px){
+    #nav.active #menu{
+        padding-top: 7rem;
+    }
+
+}
