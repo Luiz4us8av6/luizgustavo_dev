@@ -86,7 +86,7 @@ form h1{
         margin-bottom: 1rem;
     }
     #divbaixo{
-        height: 70vh;
+        height: 80vh;
         align-items:flex-start;
         margin-top: 1rem;
     }
@@ -94,7 +94,7 @@ form h1{
         width: 100%;
     }
     #titulocontatos h1{
-        font-size: 2rem;
+        font-size: 1rem;
     }
     form{
         width: 70%;
@@ -104,15 +104,34 @@ form h1{
     }
     input{
         width: 100%;
+        font-size: 0.8rem;
     }
+    textarea {
+        font-size: 0.8rem;
+    }
+
     #titulocontatos{
         display: flex;
         width: 100%;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
-        gap: 1rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    #titulocontatos img{
+        width: 1.5rem;
+        height: auto;
+    }
+    form h1 {
+        font-size: 0.8rem;
     }
     #titulocontatos h1{
         margin: 0px;
     }
+    .footerhomeworkcontatos {
+        display: flex;
+        justify-content: center;
+        margin-top: 5rem;
+    }
+    
 }

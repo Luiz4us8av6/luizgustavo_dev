@@ -1,9 +1,11 @@
+
+
 body{
     font-size: 13px;
     font-family: 'Circularpro book', sans-serif;
 }
 .bodycapa{
-    background-image: url(../img/capa1.jpg);
+    background-image: url(/img/capa-compressed.jpg);
     background-repeat:no-repeat;
     background-size:cover;
     background-position: center;
@@ -16,6 +18,8 @@ body{
 #apresentacao h1{
     font-size: 4vmax;
     line-height: 4rem;
+
+    
 }
 #profissao{
     display: flex;
@@ -53,9 +57,15 @@ body{
     }
     
     #apresentacao h1{
-        font-size: 3rem;
+        font-size: 2rem;
         line-height: 3rem;
     }
+    #projetos h3{
+    font-size: 1rem;
+}
+#profissao h3{
+    font-size: 1rem;
+}
     
     
 }

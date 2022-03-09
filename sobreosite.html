@@ -5,38 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Luiz Gustavo | Web developer</title>
-    <link rel="stylesheet" href="css/stylesobreosite.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/styleheader.css" />
-    <link rel="stylesheet" href="css/stylehome.css" />
-    <link rel="stylesheet" href="css/stylefooter.css" />
+    <link rel="stylesheet" href="/css/stylesobreosite.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/styleheader.css" />
+    <link rel="stylesheet" href="/css/stylehome.css" />
+    <link rel="stylesheet" href="/css/stylefooter.css" />
+    <link rel="icon" href="/img/logo.png">
   </head>
   <body id="bodysobreosite">
     <header>
       <div>
-        <a href="index.html">
-          <img src="img/logo.png" alt="">
+        <a href="/index.html">
+          <img class="headerscroll" src="/img/logo.png" alt="">
         </a>
       </div>
       <nav id="nav">
         <ul id="menu">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="works.html">+Projetos</a></li>
-          <li><a href="sobremim.html">Sobre mim</a></li>
-          <li><a href="sobreosite.html">Sobre o site</a></li>
-          <li><a href="contato.html">Contatos</a></li>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/works.html">+Projetos</a></li>
+          <li><a href="/sobremim.html">Sobre mim</a></li>
+          <li><a href="/sobreosite.html">Sobre o site</a></li>
+          <li><a href="/contato.html">Contatos</a></li>
         </ul>
-        <button id="botaomobile"><span id="iconemenu"></span></button>
+        <button class="headerscroll" id="botaomobile"><span id="iconemenu"></span></button>
       </nav>
     </header>
     <main>
       <section>
         <div id="contenhersobreosite">
           <div id="divdireitasobreosite">
-            <h1>Minimalismo</h1>
+            <h1 class="textosscroll">Minimalismo</h1>
           </div>
           <div id="divesquerdasobreosite">
-            <div>
+            <div class="textosscroll">
               <h2>Sobre o site</h2>
               <p>
                 Esse site foi feito unicamente por mim, o seu designer foi
@@ -51,5 +52,7 @@
       </section>
     </main>
     <script src="javascript/menuresp.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="javascript/scrollreveal.js"></script>
   </body>
 </html>

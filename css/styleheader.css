@@ -10,7 +10,7 @@ header{
     padding-top: 40px;
     padding-right: 50px;
     z-index: 1000;
-    
+
 }
 header img{
     height: 2rem;
@@ -37,7 +37,6 @@ li:hover{
     text-align: center;
     top:0;
     right: 0;
-    font-size: 30px;
     color: white;
     transition: .6s;
     overflow-y: hidden;
@@ -108,9 +107,20 @@ li:hover{
 #menu a{
     color: white;
 }
+#menu a{
+    font-size: 2rem;
+}
+#menu a:hover{
+    font-size: 2.5rem;
+}
 @media(max-width:750px){
     #nav.active #menu{
         padding-top: 7rem;
     }
-
+    #menu a{
+        font-size: 1rem;
+    }
+    #menu a:hover{
+        font-size: 1.4rem;
+    }
 }

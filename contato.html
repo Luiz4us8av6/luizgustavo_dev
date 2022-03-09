@@ -5,32 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Luiz Gustavo | Web developer</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/styleheader.css" />
-    <link rel="stylesheet" href="css/stylefooter.css" />
-    <link rel="stylesheet" href="css/stylesobremim.css" />
-    <link rel="stylesheet" href="css/stylefront.css" />
-    <link rel="stylesheet" href="css/stylecontato.css" />
-    <link rel="stylesheet" href="css/stylehome.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/styleheader.css" />
+    <link rel="stylesheet" href="/css/stylefooter.css" />
+    <link rel="stylesheet" href="/css/stylesobremim.css" />
+    <link rel="stylesheet" href="/css/stylefront.css" />
+    <link rel="stylesheet" href="/css/stylecontato.css" />
+    <link rel="stylesheet" href="/css/stylehome.css" />
+    <link rel="icon" href="/img/logo.png">
   </head>
 
   <body id="bobycontatos">
     <header id="headercontatos">
       <div>
-        <a href="index.html">
-          <img src="img/logo.png" alt="" />
+        <a href="/index.html">
+          <img class="headerscroll" src="/img/logo.png" alt="" />
         </a>
       </div>
 
       <nav id="nav">
         <ul id="menu">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="works.html">+Projetos</a></li>
-          <li><a href="sobremim.html">Sobre mim</a></li>
-          <li><a href="sobreosite.html">Sobre o site</a></li>
-          <li><a href="contato.html">Contatos</a></li>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/works.html">+Projetos</a></li>
+          <li><a href="/sobremim.html">Sobre mim</a></li>
+          <li><a href="/sobreosite.html">Sobre o site</a></li>
+          <li><a href="/contato.html">Contatos</a></li>
         </ul>
-        <button id="botaomobile"><span id="iconemenu"></span></button>
+        <button class="headerscroll" id="botaomobile"><span id="iconemenu"></span></button>
       </nav>
     </header>
     <main>
@@ -39,20 +40,20 @@
           <div id="divcima" class="divsdivgeral">
             <div id="titulocontatos">
               <div>
-                <h1>Contatos</h1>
+                <h1 class="textosscroll">Contatos</h1>
               </div>
               <div id="flexendereco">
                 <div>
-                  <img src="img/loca.png" alt="locaização" />
+                  <img class="textosscroll" src="/img/loca.png" alt="locaização" />
                 </div>
                 <div>
-                  <p>Natal-RN</p>
+                  <p class="textosscroll">Natal-RN</p>
                 </div>
               </div>
             </div>
           </div>
-          <div id="divbaixo" class="divsdivgeral">
-            <form action="">
+          <d  iv id="divbaixo" class="divsdivgeral">
+            <form class="textosscroll" action="">
               <h1>Mande uma mensagem</h1>
               <div id="inputscima">
                 <input type="text" placeholder="Seu nome" />
@@ -66,7 +67,7 @@
                   placeholder="Escreva seu texto aqui"
                 ></textarea>
               </div>
-              <d  iv>
+              <div>
                   <input type="button" value="ENVIAR">
               </div>
             </form>
@@ -74,21 +75,21 @@
         </div>
       </section>
 
-      <footer class="footerhomeworkcontatos">
+      <footer class="footerhomeworkcontatos headerscroll">
         <div>
           <div id="contenherfooter">
             <ul>
               <li>
-                <a href="index.html"><img src="img/insta.png" alt="" /></a>
+                <a href="https://www.instagram.com/luiz._.jpg/"><img src="/img/insta.png" alt="Instagram" /></a>
               </li>
               <li>
-                <a href="index.html"><img src="img/link.png" alt="" /></a>
+                <a href="https://github.com/Luiz4us8av6"><img src="/img/git.png" alt="github" /></a>
               </li>
               <li>
-                <a href="index.html"><img src="img/git.png" alt="" /></a>
+                <a href="https://www.linkedin.com/in/luiz-gustavo-silva-151395205"><img src="/img/link.png" alt="Linkedin" /></a>
               </li>
               <li>
-                <a href="index.html"><img src="img/what.png" alt="" /></a>
+                <a href="https://wa.me/5584988603679"><img src="/img/what.png" alt="WhatsApp" /></a>
               </li>
             </ul>
           </div>
@@ -99,5 +100,7 @@
       </footer>
     </main>
     <script src="javascript/menuresp.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="javascript/scrollreveal.js"></script>
   </body>
 </html>
