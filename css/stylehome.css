@@ -5,7 +5,7 @@ body{
     font-family: 'Circularpro book', sans-serif;
 }
 .bodycapa{
-    background-image: url(/img/capa-compressed.jpg);
+    background-image: url(../img/capa-compressed.jpg);
     background-repeat:no-repeat;
     background-size:cover;
     background-position: center;

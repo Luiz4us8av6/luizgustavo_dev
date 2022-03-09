@@ -12,19 +12,19 @@ a{
     color: #f5f5ff;
 }
 #capafrontend:nth-of-type(1){
-    background-image: url(/img/capafront.jpg);
+    background-image: url(../img/capafront.jpg);
     background-size: cover;
 }
 #capaback:nth-of-type(1){
-    background-image: url(/img/capaback.jpg);
+    background-image: url(../img/capaback.jpg);
     background-size: cover;
 }
 #capamobile:nth-of-type(1){
-    background-image: url(/img/capamobi.jpg);
+    background-image: url(../img/capamobi.jpg);
     background-size: cover;
 }
 #capaprojetogrupo:nth-of-type(1){
-    background-image: url(/img/capagrupo.jpg);
+    background-image: url(../img/capagrupo.jpg);
     background-size: cover;
 }
 .sectioncapa{
