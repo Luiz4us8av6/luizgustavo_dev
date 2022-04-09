@@ -1,71 +1,65 @@
+body {
+  font-size: 13px;
+  font-family: "Circularpro book", sans-serif;
+}
+.bodycapa {
+  background-image: url(../img/capa-compressed.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.home {
+  height: 87vh;
+  color: #f5f5ff;
+}
+#apresentacao h1 {
+  font-size: 4vmax;
+  line-height: 4rem;
+}
+#profissao {
+  display: flex;
+  align-items: center;
+}
+#englobacontenher {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 10%;
+}
 
+#projetos h3 {
+  font-size: 1.5rem;
+}
+#contenher {
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s;
+}
 
-body{
-    font-size: 13px;
-    font-family: 'Circularpro book', sans-serif;
-}
-.bodycapa{
-    background-image: url(../img/capa-compressed.jpg);
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position: center;
-    height: 100vh;
-}
-.home{
-    height: 87vh;
-    color: #f5f5ff;
-}
-#apresentacao h1{
-    font-size: 4vmax;
-    line-height: 4rem;
-
-    
-}
-#profissao{
+@media (max-width: 750px) {
+  #englobacontenher {
     display: flex;
-    align-items: center; 
-}
-#englobacontenher{
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-left: 10%;
-    padding-right: 10%;
-}
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4rem;
+  }
+  #projetos {
+    margin-top: 1rem;
+  }
 
-#projetos h3{
-    font-size: 1.5rem;
-}
-#contenher{
-    display: block;
-    justify-content: space-between;
-    align-items: center;
-    transition: 0.5s;
-}
-
-@media (max-width: 750px){
-    #englobacontenher{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        flex-direction: column;
-        gap: 4rem;
-    }
-    #projetos{
-        margin-top: 1rem;
-    }
-    
-    #apresentacao h1{
-        font-size: 2rem;
-        line-height: 3rem;
-    }
-    #projetos h3{
+  #apresentacao h1 {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  #projetos h3 {
     font-size: 1rem;
-}
-#profissao h3{
+  }
+  #profissao h3 {
     font-size: 1rem;
-}
-    
-    
+  }
 }
