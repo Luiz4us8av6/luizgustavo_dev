@@ -5,30 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Front-end | Luiz Gustavo</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/stylehome.css" />
-    <link rel="stylesheet" href="css/styleheader.css" />
-    <link rel="stylesheet" href="css/styleworks.css" />
-    <link rel="stylesheet" href="css/stylefront.css" />
-    <link rel="stylesheet" href="css/stylefooter.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/stylehome.css" />
+    <link rel="stylesheet" href="/css/styleheader.css" />
+    <link rel="stylesheet" href="/css/styleworks.css" />
+    <link rel="stylesheet" href="/css/stylefront.css" />
+    <link rel="stylesheet" href="/css/stylefooter.css" />
+    <link rel="stylesheet" href="/css/styleloading.css" />
     <link rel="icon" href="img/logo.png">
   </head>
 
-  <body id="bodyfront">
-    <header>
+  <body id="bodyfront" onload="precarregamento()">
+    <div id="preloade">
+      <h1>Front-End...</h1>
+    </div>
+    <div class="gambiarradoindiano">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/hN_q-_nGv4U"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+      
+    </div> 
+
+    <header>  
       <div>
-        <a href="index.html">
-          <img class="headerscroll" src="img/logo.png" alt="" />
+        <a href="/index.html">
+          <img class="headerscroll" src="/img/logo.png" alt="" />
         </a>
       </div>
 
       <nav id="nav">
         <ul id="menu">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="works.html">+Projetos</a></li>
-          <li><a href="sobremim.html">Sobre mim</a></li>
-          <li><a href="sobreosite.html">Sobre o site</a></li>
-          <li><a href="contato.html">Contatos</a></li>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/works.html">+Projetos</a></li>
+          <li><a href="/sobremim.html">Sobre mim</a></li>
+          <li><a href="/sobreosite.html">Sobre o site</a></li>
+          <li><a href="/contato.html">Contatos</a></li>
         </ul>
         <button class="headerscroll" id="botaomobile"><span id="iconemenu"></span></button>
       </nav>
@@ -39,6 +56,61 @@
         <h1 class="h1capafront">Front-end</h1>
       </section>
 
+      <section class="section1work work1">
+        <div class="divsection1work">
+          <div class="flexitens divflebotaocima">
+            <div>
+              <h1 class="h1works">
+                <span class="marginnegativa">C</span>Catolé<br />(ACCC)
+              </h1>
+            </div>
+            <div>
+              <a href="https://luiz4us8av6.github.io/natura_eject.github.io/" target="_blank"><button class="botao divmobifotos">Visitar página</button></a>
+            </div>
+          </div>
+
+          <div class="flexitens">
+            <div>
+              <p>
+                <b>Associação Comunitária Catolé e Cabaceira (ACCC),</b> é um site institucional desenvolvido nas
+                tecnologias HTML, CSS, Javascript, 
+                jQuery, Figma e Github, feito de forma voluntária para divulgação da Associação.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="divfotossection1work">
+          <div class="divfotossection1workesque">
+            <div>
+              <a href="https://luiz4us8av6.github.io/ACCC_website/" target="_blank"><button class="botao">Visitar página</button></a>
+            </div>
+          </div>
+
+          <div class="divfotossection1workdire">
+            <div class="fotoesquerta1work">
+              <img
+                src="/img/catolemobi.PNG"
+                alt="foto da tela inicial do site Natura"
+              />
+              <img
+                class="divmobifotos"
+                src="/img/catolemobi2.PNG"
+                alt="foto da tela inicial do site Natura"
+              />
+            </div>
+
+            <div class="fotodireita1work">
+              <img
+                src="/img/catoleimg.PNG"
+                alt="foto da tela inicial do site Natura"
+              />
+            </div>
+          </div>
+
+          <!-- <img src="/img/naturacapa.PNG" alt="" id="foto1" />
+          <img src="/img/navespacecapa.PNG" alt="" id="foto2" /> -->
+        </div>
+      </section>
       <section class="section1work work1">
         <div class="divsection1work">
           <div class="flexitens divflebotaocima">
@@ -72,19 +144,19 @@
           <div class="divfotossection1workdire">
             <div class="fotoesquerta1work">
               <img
-                src="img/mobinatura2.jpg"
+                src="/img/mobinatura2.jpg"
                 alt="foto da tela inicial do site Natura"
               />
               <img
                 class="divmobifotos"
-                src="img/capanatura2.jpg"
+                src="/img/capanatura2.jpg"
                 alt="foto da tela inicial do site Natura"
               />
             </div>
 
             <div class="fotodireita1work">
               <img
-                src="img/naturacapa.jpg"
+                src="/img/naturacapa.jpg"
                 alt="foto da tela inicial do site Natura"
               />
             </div>
